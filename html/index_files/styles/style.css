@@ -1,0 +1,43 @@
+/* 全体 */
+.avatar-editor{
+    display: flex;
+}
+.avatar-editor__tools{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+/* 編集ツール部分(画面右側) */
+.avatar-editor__tools h2{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #666
+}
+.avatar-editor__tools ul{
+    margin: 1em 0;
+    padding: 0;
+    display: flex;
+}
+.avatar-editor__tools ul li{
+    list-style-type: none;
+}
+.avatar-editor__tools img{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+/* アバター部分(画面左側) */
+.avatar{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #333;
+}
+.avatar img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
